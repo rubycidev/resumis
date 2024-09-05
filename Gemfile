@@ -45,6 +45,8 @@ gem 'sidekiq-failures'
 # Web server
 gem 'puma'
 
+gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
+
 group :development do
   gem 'listen', '~> 3.9.0'
 end
